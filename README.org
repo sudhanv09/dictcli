@@ -1,0 +1,5 @@
+#+title: Dict-CLI
+
+A simple CLI app for looking up words from the terminal.
+
+It uses the [[https://dictionaryapi.dev/][dictionaryapi]] to search for words.
