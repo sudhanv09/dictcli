@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-import json
 import requests
 import rich
 import argparse
 
 api_url =  "https://api.dictionaryapi.dev/api/v2/entries/en/"
 keywords = ['word', 'partOfSpeech', 'definition']
+
 parser = argparse.ArgumentParser()
 parser.add_argument('word', type=str)
 args = parser.parse_args()
